@@ -1,8 +1,7 @@
 https://aka.ms/ThreatProtectionEnvisioningWorkshop/Resources
 https://aka.ms/DataSecurityEnvisioningWorkshop/SupportingContent
-https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/
-https://microsoftpartners.microsoft.com/Downloads/?filename=Microsoft-Security-Partners%2FAssets%2FModern%20SecOps%20Envisioning%20Workshop.zip
-https://microsoftpartners.microsoft.com/Downloads/?filename=Microsoft-Security-Partners%2FAssets%2FCloud%20Security%20Envisioning%20Workshop.zip
-https://microsoftpartners.microsoft.com/Downloads/?filename=Microsoft-Security-Partners%2FAssets%2FData%20Security%20Envisioning%20Workshop.zip
-https://microsoftpartners.microsoft.com/Downloads/?filename=Microsoft-Security-Partners%2FAssets%2FThreat%20Protection%20Envisioning%20Workshop.zip
+https://aka.ms/CloudSecurityEnvisioningWorkshop
+https://aka.ms/DataSecurityEnvisioningWorkshop
+https://aka.ms/ModernSecOpsEnvisioningWorkshop
+https://aka.ms/ThreatProtectionEnvisioningWorkshop
 https://partner.microsoft.com/en-us/dashboard/incentives/engagements/ux
