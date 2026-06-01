@@ -9,14 +9,15 @@ This repo is 100 % static content (Office docs + markdown). No build, no tests, 
 ├── Data Security Envisioning Workshop/      # Microsoft Purview, DLP, IRM — v8.5.x
 ├── Modern SecOps Envisioning Workshop/      # Microsoft Sentinel, SIEM/SOAR
 ├── Threat Protection Envisioning Workshop/  # Defender XDR, Entra ID, Zero Trust
-├── README.md                                # ⚠️ Master agent prompt – DO NOT edit unless asked
+├── README.md                                # Human-readable repo description
+├── SYSTEM_PROMPT.md                         # ⚠️ Master agent prompt – DO NOT edit unless asked
 ├── url.txt                                  # Official Microsoft download links for workshop kits
 └── .gitignore
 ```
 
-## Critical file: `README.md`
+## Critical file: `SYSTEM_PROMPT.md`
 
-The README is **not** a human-readable intro. It is the system prompt that defines the AI's role, voice, session structure (4 × 2h), linguistic constraints, and deliverables. Never modify it unless the user explicitly requests changes.
+`SYSTEM_PROMPT.md` is the system prompt that defines the AI's role, voice, session structure (4 × 2h), linguistic constraints, and deliverables. Never modify it unless the user explicitly requests changes. `README.md` is now human-readable documentation — do not use it as agent instructions.
 
 ## Conventions for generated deliverables
 
@@ -47,3 +48,11 @@ Before proposing changes or analysis, always use these documents as context:
 - docs/implementation/progress.md
 
 These files are the persistent memory of the project and must be preferred over session memory.
+
+## Disclaimer for generated deliverables
+
+All AI-generated session outputs (`Entregables_SesionN/`) must include a clear notice at the top of each file:
+
+> *"Este documento contiene datos simulados para fines de demostración y formación. No incluye información real de clientes, datos personales ni información sensible. Cualquier similitud con empresas o personas reales es mera coincidencia."*
+
+This mitigates the risk of PII exposure if deliverables are versioned in the repository.

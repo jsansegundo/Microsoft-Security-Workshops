@@ -14,3 +14,20 @@ test.pdf
 # OS files
 Thumbs.db
 .DS_Store
+.Directory
+
+# Environment & virtualenv
+.venv/
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Office additional temp files
+*.wbk
+*.~lock.*
