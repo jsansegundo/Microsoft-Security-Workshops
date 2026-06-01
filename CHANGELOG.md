@@ -19,3 +19,7 @@
 - `AGENTS.md` actualizado para referenciar `SYSTEM_PROMPT.md`
 - `checksums.sig` con hash SHA-256 de `SYSTEM_PROMPT.md`
 - `CHANGELOG.md` creado (este archivo)
+- Disclaimer legal para entregables en `AGENTS.md`
+- Fusionados y eliminados `docs/raw/` (contenido TXT integrado en .md)
+- Git LFS configurado para Office binarios (50 archivos migrados, ~558 MB)
+- Historia reescrita: los commits ahora contienen punteros LFS en lugar de binarios
