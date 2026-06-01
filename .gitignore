@@ -1,0 +1,16 @@
+# Temporary files
+*.tmp
+*.log
+__pycache__/
+*.pyc
+generar_docx.py
+Documento_Cliente_Talleres_Ciberseguridad.html
+test.pdf
+
+# Office temporary files
+~$*
+*.oft
+
+# OS files
+Thumbs.db
+.DS_Store
